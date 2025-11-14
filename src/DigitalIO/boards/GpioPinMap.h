@@ -53,7 +53,7 @@
 #include "BobuinoGpioPinMap.h"
 #elif defined(ARDUINO_1284P_SLEEPINGBEAUTY)
 #include "SleepingBeautyGpioPinMap.h"
-#elif defined(ARDUINO_1284P_STANDARD)
+#elif defined(STANDARD_PINOUT)
 #include "Standard1284GpioPinMap.h"
 #else // ARDUINO_1284P_SLEEPINGBEAUTY
 #error Undefined variant 1284, 644, 324
